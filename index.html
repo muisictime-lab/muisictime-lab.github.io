@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김효석 | 설득스토리텔링 강사</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;
+      background:linear-gradient(145deg,#0b1f3a,#163d68);
+      color:#fff;min-height:100vh;padding:24px 16px;
+    }
+    .card{
+      max-width:440px;margin:auto;min-height:calc(100vh - 48px);
+      display:flex;flex-direction:column;justify-content:space-between;
+      padding:38px 24px 28px;border-radius:28px;
+      background:rgba(255,255,255,.08);
+      box-shadow:0 20px 50px rgba(0,0,0,.25);
+      backdrop-filter:blur(12px);
+    }
+    .top{text-align:center}
+    .badge{
+      display:inline-block;padding:7px 14px;border-radius:30px;
+      background:#fff;color:#163d68;font-size:14px;font-weight:700;
+      margin-bottom:18px;
+    }
+    h1{font-size:42px;letter-spacing:-2px;margin-bottom:10px}
+    .intro{font-size:20px;line-height:1.5;font-weight:500}
+    .services{margin:42px 0}
+    .services h2{
+      font-size:19px;margin-bottom:18px;text-align:center;
+      color:#dcecff;
+    }
+    .service{
+      display:flex;align-items:center;gap:16px;
+      background:#fff;color:#142b46;border-radius:18px;
+      padding:20px 18px;margin-bottom:14px;
+      font-size:21px;font-weight:800;
+      box-shadow:0 8px 20px rgba(0,0,0,.15);
+    }
+    .num{
+      width:42px;height:42px;border-radius:50%;
+      display:grid;place-items:center;
+      background:#163d68;color:#fff;font-size:18px;
+      flex-shrink:0;
+    }
+    .bottom{text-align:center}
+    .contact{
+      display:block;width:100%;padding:19px;border:0;
+      border-radius:16px;background:#f4c542;color:#17263b;
+      font-size:22px;font-weight:900;text-decoration:none;
+      cursor:pointer;box-shadow:0 8px 20px rgba(0,0,0,.2);
+    }
+    .contact:active{transform:scale(.98)}
+    .copy{font-size:13px;color:#c9d8e8;margin-top:14px}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <section class="top">
+      <div class="badge">설득스토리텔링 강사</div>
+      <h1>김효석</h1>
+      <p class="intro">말에 스토리를 더하고,<br>설득에 힘을 더합니다.</p>
+    </section>
+
+    <section class="services">
+      <h2>제가 하는 일</h2>
+      <div class="service"><span class="num">1</span>영업인 강의</div>
+      <div class="service"><span class="num">2</span>화법 강의</div>
+      <div class="service"><span class="num">3</span>AI 강의</div>
+    </section>
+
+    <section class="bottom">
+      <a class="contact" href="tel:010-1234-1234">문의하기</a>
+      <p class="copy">© 김효석아카데미</p>
+    </section>
+  </main>
+</body>
+</html>
